@@ -44,6 +44,7 @@ else
     Console.WriteLine("-> третьей цифры нет");
 }
 */
+/*
 //Задача 15: Напишите программу, которая принимает на вход цифру, 
 //обозначающую день недели, и проверяет, является ли этот день выходным.
 // 6 -> да
@@ -69,3 +70,16 @@ void CheckingTheDayOfTheWeek(int dayNumber)
 }
 
 CheckingTheDayOfTheWeek(dayNumber);
+*/
+Double a, b, c;
+Console.Write("a=");
+a = Convert.ToDouble(Console.ReadLine());
+Console.Write("b=");
+b = Convert.ToDouble(Console.ReadLine());
+Console.Write("c=");
+c = Convert.ToDouble(Console.ReadLine());
+if (a == b || a == c || b == c)
+    Console.Write("true");
+else
+    Console.Write("false");
+Console.ReadLine();
